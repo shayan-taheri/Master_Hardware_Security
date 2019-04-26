@@ -1,0 +1,39 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf510
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Consolas-Bold;}
+{\colortbl;\red255\green255\blue255;\red217\green11\blue0;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\b\fs36 \cf0 Instruction:
+\fs28 \
+\
+
+\b0\fs24 1) Modify 
+\f1\b \cf2 input_file.txt
+\f0\b0 \cf0  in a way that each line consists of exactly one gate and there is no space between lines.\
+\
+2) Change All of the input ports to 
+\f1\b\fs28 \cf2 .A(\'85)
+\f0\b0\fs24 \cf0  and all of the output ports to 
+\f1\b\fs28 \cf2 .Z(\'85)
+\f0\b0\fs24 \cf0 .\
+\
+3) At the end of each line, change 
+\f1\b\fs32 \cf2 ;
+\f0\b0\fs24 \cf0  to 
+\f1\b\fs32 \cf2 .;
+\f0\b0\fs24 \cf0 .\
+\
+4) Eliminating 
+\f1\b\fs28 \cf2 .A()
+\f0\b0\fs24 \cf0  and 
+\f1\b\fs28 \cf2 .Z()
+\f0\b0\fs24 \cf0  for making sure that the parser doesn't read extra input or output.\
+\
+\ul Note\ulnone : Parser reads an input signal or an output signal that is connected to 
+\b\fs28 0
+\b0\fs24  without eliminating 
+\f1\b\fs28 \cf2 .A()
+\f0\b0\fs24 \cf0  and 
+\f1\b\fs28 \cf2 .Z()
+\f0\b0\fs24 \cf0 .}
